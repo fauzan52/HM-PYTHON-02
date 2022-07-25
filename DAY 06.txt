@@ -1,0 +1,50 @@
+cara ngegabung list
+angka1 = [1,2,3]
+angka2 = [4,5]
+angkat 3 = angka1 + angka 2
+
+cara ngecek type
+print (type(angka3))
+
+cara ngitung jumlah anggota
+print (len(angka3))
+
+List = [1,2,3,nama,-2]
+list boleh ditambah yang beda type - tapi kalo dioperasiin harus 1 type
+
+list : [1,2,3,4,5]
+kalo biar mundur atur indeksnya
+print (list[-1:]
+
+cara cek nilai terbesar dan terkecil dilist
+print(max(angka3))
+print(min(angka3))
+
+cara ngerubah isi - misal indek 2 mau dirubah 
+angka =[1,2,3,4]
+angka[2] = 'selasa'
+print(angka)
+nanti hasilnya [1,2,'selasa',4]
+
+cara mau ngerubah isi indeks tapi ga bikin hilang
+angka =[1,2,3,4]
+angka.insert (2,'selasa')
+nanti hasilnya [1,2,selasa,3,4]
+
+cara nambah indeks ntar dibelakang
+angka.append(0)
+nanti hasilnya [1,2,3,4,0]
+
+cara ngapus isi indeks
+angka.pop(0)
+berarti indeks ke 0 nya ntar ilang
+
+cara ngapus list
+angka.remove ('selasa')
+berarti isi list bacaan selasa hilang
+
+cara ngebalik urutan list
+angka.reverse()
+
+cara ngurutin isi list
+angka.sort()
